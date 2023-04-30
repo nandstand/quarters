@@ -1,0 +1,63 @@
+p, h1, a {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 32;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+body {
+    background-color: black;
+}
+
+.white-outline {
+    outline-style: ridge;
+    outline-width: 6px;
+    outline-color: white;
+    border-radius: 2px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.center-left {
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.center-right {
+    display: block;
+    margin-left: auto;
+    margin-right: 35%;
+}
+
+.vertical-margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.top-margin {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.textbox {
+    padding: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+.action-box {
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+}
